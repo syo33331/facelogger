@@ -17,4 +17,4 @@ Ensure you have Python 3.6 or later installed on your system. Face Logger is com
 1. Clone the Face Logger repository to your local machine.
 
    ```bash
-   git clone https://github.com/yourusername/facelogger.git
+   git clone https://github.com/syo33331/facelogger.git
