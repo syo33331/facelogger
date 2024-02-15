@@ -1,13 +1,8 @@
 # Face Logger
 
-Welcome to Face Logger, an advanced tool designed to capture and analyze facial data in real-time. Utilizing cutting-edge facial recognition technology, Face Logger provides a comprehensive solution for various applications, including security systems, marketing analysis, and user engagement studies.
-
 ## Features
 
-- **Real-Time Facial Recognition**: Instantly identifies and logs facial data with high accuracy.
-- **User Analytics**: Generates detailed reports on user interactions and demographics.
-- **Security Enhancement**: Offers robust features for enhancing security through facial verification.
-- **Easy Integration**: Designed to be easily integrated with existing systems.
+- **Face**:　Send face to entered webhook
 
 ## Getting Started
 
